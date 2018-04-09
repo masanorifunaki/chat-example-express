@@ -3593,7 +3593,7 @@ module.exports = function(obj, fn){
 
 
 var $ = __webpack_require__(24);
-var socket = __webpack_require__(25)('http://localhost:8000');
+var socket = __webpack_require__(25)('https://chat-example-0409.herokuapp.com/');
 var form = $('form');
 var m = $('#m');
 var messages = $('#messages');

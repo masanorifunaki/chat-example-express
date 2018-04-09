@@ -1,6 +1,6 @@
 'use strict';
 const $ = require('jquery');
-const socket = require('socket.io-client')('http://localhost:8000');
+const socket = require('socket.io-client')('https://chat-example-0409.herokuapp.com/');
 const form = $('form');
 const m = $('#m');
 const messages = $('#messages');
