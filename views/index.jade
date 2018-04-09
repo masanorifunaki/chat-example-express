@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 チャットを開始しましょう！
+  div(class="row")
+
+  form(action="" class="form-row" style="margin-bottom: 20pt;")
+    input(id="m" autocomplete="off" class="col-8")
+    div(class="col-4")
+      button(class="btn btn-info form-control lg-2") Send
+  ul(id="messages" class="list-group list-group-flush")
