@@ -25,5 +25,8 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "webpack": "^3.10.0"
+  },
+  "engines": {
+    "node": "8.9.4"
   }
 }

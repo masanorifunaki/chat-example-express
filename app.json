@@ -1,0 +1,9 @@
+{
+  "name": "chat-example-express",
+  "description": "チャットくん",
+  "logo": "",
+  "keywords": [
+    "node"
+  ],
+  "image": "heroku/nodejs"
+}
